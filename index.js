@@ -60,7 +60,7 @@ exports.rules = {
 	'id-blacklist': 'error',
 	'id-length': 'error',
 	'id-match': 'error',
-	'indent': 'off',
+	'indent': ['error', 2],
 	'init-declarations': 'off',
 	'jsx-quotes': 'error',
 	'key-spacing': 'error',
